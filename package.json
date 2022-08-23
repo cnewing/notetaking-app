@@ -19,6 +19,7 @@
   "homepage": "https://github.com/cnewing/notetaking-app#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "join": "^3.0.0"
+    "join": "^3.0.0",
+    "nodemon": "^2.0.19"
   }
 }
