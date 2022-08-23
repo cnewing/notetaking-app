@@ -11,3 +11,19 @@ const app = express();
 
 // P O R T
 const PORT = process.env.PORT || 3000;
+
+// M I D D L E W A R E  T O  P A R S E  J S O N  D A T A
+app.use(express.urlencoded({ extend: true }));
+app.use(express.json());
+
+// F O L D E R  F O R  T H E  B R O W S E R  T O  S E E
+app.use(express.static("public"));
+
+// R O U T E S
+require("./Routes/apiroutes")(app);
+require("./Routes/htmlroutes")(app);
+
+// L I S T E N E R
+app.listen(PORT, () => {
+  console.log("App listening on PORT: " + PORT);
+});
