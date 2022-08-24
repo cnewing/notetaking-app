@@ -9,7 +9,7 @@ const htmlRoutes = require("./Routes/htmlRoutes");
 const app = express();
 
 // P O R T
-const PORT = process.env.PORT || 5500;
+const PORT = process.env.PORT || 5501;
 
 // M I D D L E W A R E  T O  P A R S E  J S O N  D A T A
 app.use(express.urlencoded({ extend: true }));
