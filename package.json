@@ -4,22 +4,21 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "util": "^0.12.4",
+    "uuid": "^8.3.2",
+    "join": "^3.0.0",
+    "nodemon": "^2.0.19"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cnewing/notetaking-app.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cnewing/notetaking-app/issues"
-  },
-  "homepage": "https://github.com/cnewing/notetaking-app#readme",
-  "dependencies": {
-    "express": "^4.18.1",
-    "join": "^3.0.0",
-    "nodemon": "^2.0.19"
   }
 }
