@@ -21,6 +21,8 @@ Create an app that allows you to take notes, save, and delete them
 
 ## View of the Application
 
+<img width="1440" alt="Screen Shot 2022-08-30 at 2 10 21 PM" src="https://user-images.githubusercontent.com/89669465/187512046-135d07cf-895b-444f-ad56-e2b5c4bfa28d.png">
+
 ## Contributions
 
 Created by Christa Newing
